@@ -1,0 +1,39 @@
+/*.media-chat{
+    margin: 0;
+    padding: 0;
+}
+*/
+#remoteVideo{
+    width: 400px;
+    height: 400px;
+}
+
+#localVideo{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.msgContainer{
+    position: fixed;
+}
+
+body,textarea,input{
+    font: 13px 'Trebuchet MS',sans-serif;
+}
+
+#msg{
+    width: 300px;
+    padding: 10px;
+    height: 40px;
+    max-width: 100px;
+}
+
+#messages{
+    border: 1px solid blue;
+    overflow-y:scroll;
+    height: 100px;
+    width: 200px;
+    padding: 10px; 
+}
+/*font: 13px 'Trebuchet MS',sans-serif;*/
