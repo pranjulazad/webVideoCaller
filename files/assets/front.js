@@ -20,7 +20,7 @@ function media() {
     var sender_id = null;
     var receiver_id = null;
 
-    var websocket = new WebSocket('ws://172.31.150.82:8000/media');
+    var websocket = new WebSocket('ws://localhost:8000/media');
     var ConCfg = {
         'iceServers':
         [{ 'url': 'stun:stun.services.mozilla.com' },
